@@ -98,8 +98,7 @@
             <div class="home-content-box-inner text-center">
               <div class="home-heading animated fadeInDown">
                 <h3>
-                  Kahenya <br />
-                  Anita
+                  Styles <br />
                 </h3>
               </div>
               <div class="home-btn wow fadeInUp" data-wow-delay="0.3s">
@@ -116,12 +115,12 @@
             <div class="home-content-box-inner text-center">
               <div class="home-heading animated fadeInDown">
                 <h3>
-                  Anita <br />
-                  Kahenya
+                  N' <br />
+                  Smiles
                 </h3>
               </div>
               <div class="home-btn fadeInDown">
-                <a class="js-scroll-trigger" href="#contact" role="button" title="View Our Work"><button
+                <a class="js-scroll-trigger" href="#book" role="button" title="View Our Work"><button
                     class="btn btn-lg btn-general btn-greenish">
                     Book Now
                   </button></a>
@@ -130,6 +129,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </header>
 
@@ -598,10 +598,83 @@
       </div>
     </div>
 
-    <!-- FOOTER 
-                   =================-->
-    <footer>
-      <div class="container-fluid">
+    <!-- BOOKING FORM 
+            =================-->
+    <section id="book" class="booking pb-0">
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form action="#" class="p-5 bg-white">
+                <h2 class="mb-4 site-section-heading">Book Now</h2>
+
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label class="text-black" for="fname">First Name</label>
+                    <input type="text" id="fname" class="form-control" placeholder="First Name" />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="text-black" for="lname">Last Name</label>
+                    <input type="text" id="lname" class="form-control" placeholder="Last Name" />
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label class="text-black" for="date">Date</label>
+                    <input type="text" id="date" class="form-control datepicker px-2" placeholder="Date of visit" />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="text-black" for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Email" />
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="treatment">Service You Want</label>
+                    <select name="treatment" id="treatment" class="form-control">
+                      <option value="">Hair Cut</option>
+                      <option value="">Hair Coloring</option>
+                      <option value="">Shave</option>
+                      <option value="">Hair Conditioning</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="note">Notes</label>
+                    <textarea name="note" id="note" cols="30" rows="5" class="form-control"
+                      placeholder="Write your notes or questions here..."></textarea>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <input type="submit" value="Send" class="btn btn-primary py-2 px-4 text-white" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM
+            =================-->
+    <section id="contact" class="contact pb-0">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <div class="heading">
+              <h1>Contact Us</h1>
+              <div class="bord-bot"></div>
+              <p class="desc">We would love to hear from you!</p>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-5">
             <span class="copyright">Copyright &copy; 2020 Design By Quintet Barbers
@@ -638,57 +711,57 @@
           </div>
         </div>
       </div>
-    </footer>
+      </footer>
 
-    <a href="#page-top" id="back-to-top"
-      class="btn btn-sm btn-green btn-back-to-top js-scroll-trigger hidden-sm hidden-xs" title="home" role="button">
-      <i class="fa fa-angle-double-up"></i>
-    </a>
-  </section>
+      <a href="#page-top" id="back-to-top"
+        class="btn btn-sm btn-green btn-back-to-top js-scroll-trigger hidden-sm hidden-xs" title="home" role="button">
+        <i class="fa fa-angle-double-up"></i>
+      </a>
+    </section>
 
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jqBootstrapValidation.min.js"></script>
-  <script src="js/contact_me.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/swiper.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 500,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
-  <script src="js/app.js"></script>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = "https://embed.tawk.to/5a6d77fc4b401e45400c7419/default";
-      s1.charset = "UTF-8";
-      s1.setAttribute("crossorigin", "*");
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
-  <!--End of Tawk.to Script-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jqBootstrapValidation.min.js"></script>
+    <script src="js/contact_me.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+    <script src="js/app.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/5a6d77fc4b401e45400c7419/default";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
