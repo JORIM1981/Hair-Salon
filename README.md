@@ -54,7 +54,11 @@ one depending on the service they require.Finally there is a dialog box where th
 
 - Incase of any queries,contributions or clarifications u can contact us through
   *okongo.midumbi.opondo@gmail.com
-  *anitakahenya1@gmail.com \* \* \* \*
+  *anitakahenya1@gmail.com
+  *nasirabdulkadir91@gmail.com
+  *donaldmwendaolimba@gmail.com
+  *rosekairu@gmail.com
+  *duncan96ondieki@gmail.com
 
 ### License
 
