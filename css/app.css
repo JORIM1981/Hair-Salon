@@ -9685,6 +9685,64 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
   cursor: zoom-in;
 }
 
+/*Testimonials section*/
+#header h1 {
+  font-size: 28px;
+  font-weight: 300px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 54px;
+  letter-spacing: 3px;
+  height: 56px;
+  margin: 0;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ribbon {
+  background-color: #16A085;
+  /* background color for center of ribbon */
+  border: 3px solid #eee;
+  /* border color for center of ribbon */
+  height: 56px;
+  padding: 0 20px;
+  display: inline-block;
+  position: relative;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: '.';
+  text-indent: -9999em;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 28px;
+  position: absolute;
+  left: -45px;
+  top: 10px;
+  display: block;
+  z-index: -1;
+}
+
+.ribbon:before {
+  border-color: #138A72 #138A72 #138A72 transparent;
+  /* bg color for left side of ribbon */
+}
+
+.ribbon:after {
+  border-color: #138A72 transparent #138a73 #138a72;
+  /* bg color for right side of ribbon */
+  right: -45px;
+  left: auto;
+}
+
 .testimonials {
   background: #e9efee;
 }
@@ -9692,7 +9750,7 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
 .testimonials .testimonial {
   border-left: 4px solid #f59f7e;
   box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.06);
-  background: #fff;
+  background: rgb(78, 182, 173);
   padding: 30px 30px 30px 130px;
   margin: 0 15px 30px 15px;
   overflow: hidden;
@@ -9700,7 +9758,6 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
 }
 
 .testimonials .testimonial:before {
-  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
@@ -9728,9 +9785,10 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
 }
 
 .testimonials .testimonial .description {
+  height: 250px;
   font-size: 15px;
   font-style: italic;
-  color: #918686;
+  color: white;
   line-height: 25px;
   margin-bottom: 15px;
 }
@@ -9750,72 +9808,63 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
   color: #f59f7e;
 }
 
-.swiper-slide {
-  width: 400px;
+.success-box {
+  width: 35%;
+  margin: 50px 0;
+  padding: 10px 10px;
+  border: 1px solid rgb(49, 47, 47);
+  background: #f9f9f9;
 }
 
-.container5 {
-  width: 599px;
-  border: 2px solid gray;
-  padding: 15px 10px;
-  margin-left: 3in;
-}
-
-.container5 h3 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-textarea {
-  height: 40px;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid white;
-  background-color: transparent;
-  margin-bottom: 10px;
-  resize: none;
-  outline: none;
-}
-
-input[type="submit"],
-button {
-  padding: 10px 15px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-input[type="submit"] {
-  color: aliceblue;
-  background-color: #273c75;
-}
-
-button {
-  color: #333;
-  background-color: transparent;
-}
-
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-
-.rating>span {
+.success-box img {
+  margin-right: 10px;
   display: inline-block;
-  position: relative;
-  width: 1.1em;
-  font-size: 30px;
+  vertical-align: top;
 }
 
-.rating>span:hover:before,
-.rating>span:hover~span:before {
-  content: "\2605";
-  position: absolute;
-  color: gold;
+.success-box>div {
+  vertical-align: top;
+  display: inline-block;
+  color: #888;
 }
+
+
+
+/* Rating Star Widgets Style */
+
+.rating-stars ul {
+  direction: rtl;
+  list-style-type: none;
+  padding: 0;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.rating-stars ul>li.star {
+  margin-left: -1.3in;
+  display: inline-block;
+
+}
+
+/* Idle State of the stars */
+.rating-stars ul>li.star>i.fa {
+  font-size: 2.5em;
+  /* Change the size of the stars */
+  color: #ccc;
+  /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul>li.star.hover>i.fa {
+  color: #FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul>li.star.selected>i.fa {
+  color: #FF912C;
+}
+
 
 @media only screen and (max-width: 767px) {
   .testimonials .testimonial {
@@ -9845,6 +9894,7 @@ button {
   color: gold;
 }
 
+/*End Testimonials section*/
 section#contact {
   background-image: url("../img/bg-footer1.jpg");
   -webkit-background-size: cover;
