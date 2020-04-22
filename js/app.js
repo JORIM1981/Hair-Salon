@@ -130,10 +130,16 @@ $(document).ready(function () {
         // JUST RESPONSE (Not needed)
         var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
         var msg = "";
-        if (ratingValue > 1) {
-            msg = "Thank You! You rated this " + ratingValue + " stars.";
+        if (ratingValue == 5) {
+            msg = "Thank You! You rated this " + ratingValue + " stars." + " " + "😇";
+        } else if (ratingValue == 4) {
+            msg = "Thank You! You rated this " + ratingValue + " stars." + "😘";
+        } else if (ratingValue == 3) {
+            msg = "Thank You! You rated this " + ratingValue + " stars." + " " + "🙂";
+        } else if (ratingValue == 2) {
+            msg = "Thank You! You rated this " + ratingValue + " stars." + " " + "😏";
         } else {
-            msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
+            msg = "We will improve ourselves. You rated this " + ratingValue + " stars." + " " + "😔";
         }
         responseMessage(msg);
 
