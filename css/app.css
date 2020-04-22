@@ -9686,6 +9686,63 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
 }
 
 /*Testimonials section*/
+#header h1 {
+  font-size: 28px;
+  font-weight: 300px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 54px;
+  letter-spacing: 3px;
+  height: 56px;
+  margin: 0;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ribbon {
+  background-color: #16A085;
+  /* background color for center of ribbon */
+  border: 3px solid #eee;
+  /* border color for center of ribbon */
+  height: 56px;
+  padding: 0 20px;
+  display: inline-block;
+  position: relative;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: '.';
+  text-indent: -9999em;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 28px;
+  position: absolute;
+  left: -45px;
+  top: 10px;
+  display: block;
+  z-index: -1;
+}
+
+.ribbon:before {
+  border-color: #138A72 #138A72 #138A72 transparent;
+  /* bg color for left side of ribbon */
+}
+
+.ribbon:after {
+  border-color: #138A72 transparent #138a73 #138a72;
+  /* bg color for right side of ribbon */
+  right: -45px;
+  left: auto;
+}
+
 .testimonials {
   background: #e9efee;
 }
@@ -9835,64 +9892,6 @@ header .carousel-item .home-content-box .home-content-box-inner .home-heading h3
 
 .checked {
   color: gold;
-}
-
-.bar {
-  color: #FFF;
-  background-color: #a047c6;
-  padding: 35px;
-  width: 400px;
-  margin: 0px auto 0;
-  font: 35px/50px 'Bree Serif', Courier, monospaced;
-  text-align: center;
-  position: relative;
-  text-transform: uppercase;
-  border: 2px transparent solid;
-  box-shadow: 0 10px 30px -10px gray;
-}
-
-.bar span {
-  position: absolute;
-}
-
-.bar span:nth-child(1),
-.bar span:nth-child(3) {
-  border-style: solid;
-  border-width: 15px;
-  z-index: -1;
-}
-
-.bar span:nth-child(1) {
-  border-color: #000 #000 transparent transparent;
-  top: 120px;
-  left: -2px;
-}
-
-.bar span:nth-child(3) {
-  border-color: #000 transparent transparent #000;
-  top: 120px;
-  left: 442px;
-}
-
-.bar span:nth-child(2),
-.bar span:nth-child(4) {
-  top: 30px;
-  border-style: solid;
-  border-width: 60px;
-  z-index: -2;
-}
-
-.bar span:nth-child(2) {
-  border-color: #6f3289 #6f3289 #6f3289 transparent;
-  left: -90px;
-  box-shadow: 20px 20px 30px -10px grey;
-}
-
-.bar span:nth-child(4) {
-  border-color: #6f3289 transparent #6f3289 #6f3289;
-
-  left: 440px;
-  box-shadow: -20px 19px 30px -10px grey;
 }
 
 /*End Testimonials section*/
