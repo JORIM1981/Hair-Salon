@@ -10,6 +10,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -413,17 +414,20 @@
       </div>
     </div>
   </section>
-
-  <!-- TESTIMONIALS 
-            =================-->
   <section id="testimonials" class="testimonials">
     <div class="container">
-      <br><br>
       <div class="row">
-        <h3 style="margin-left: 5in; margin-top: -1in;"><em>Client Reviews</em></h3>
-        <p style="text-align: justify;">We value our customers and look forward to receiving your feedback. Not only
+        <div class="bar" style="margin-top: -1in;">
+          Client Reviews
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p style="text-align: justify; margin-top: 0.2in;"> We value our customers and look forward to receiving your
+          feedback. Not only
           does it help us to improve the
-          service we give to you, it’s also lovely to hear about your experiences in our salons. You can leave a review
+          service we give to you, it’s also lovely to hear about your experiences in our salon. You can leave a review
           using our quick and easy form below. We will then share your review on our page. If you think we
           could have done better, please get in touch with us so we can help to resolve your
           issue. </p>
@@ -454,7 +458,7 @@
               <small class="post">Nairobi</small>
             </div>
             <p class="description">
-              I always get looked after by a wonderful team of ladies at the Quintet. I was there recently and
+              I always get looked after by a wonderful team of ladies at the Styles&Smiles. I was there recently and
               had a
               cut with Mel and hair colour with Helen. It was raining and miserable outside but the team from
               reception right through to the lovely ladies who provided the tea and washed the colour off. I
@@ -468,7 +472,7 @@
             </p>
           </div>
           <div class="testimonial">
-            <div class="pic">
+            <div class=" pic">
               <img src="img/client/client03.jpg" />
               <h3 class="title">Pam</h3>
               <small class="post">Nairobi</small>
@@ -496,7 +500,7 @@
               <small class="post">. Nairobi</small>
             </div>
             <p class="description">
-              I can thoroughly recommend Quintet for their creation of dreads and dreads maintenance. Ema and
+              I can thoroughly recommend Styles&Smiles for their creation of dreads and dreads maintenance. Ema and
               her team are all incredibly professional, personable, passionate, and practiced. Her passion to share
               her skills and enthusiasm with others is wonderful.Luv ya guts Em 😘 <br>
               <span class="fa fa-star checked"></span>
@@ -517,34 +521,55 @@
               know how to
               lighten the mood and give the greatest cuts. True artists, and genuinely wonderful human beings.
               If
-              you live in Nairobi or just visiting, you must go visit Quintet. I drive all the way from Thika
+              you live in Nairobi or just visiting, you must go visit Styles&Smiles. I drive all the way from Thika
               everytime, no
-              questions!
+              questions! <br>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
             </p>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span><br>
           </div>
         </div>
       </div>
     </div>
     </div>
-    <div class="rating" style="margin-left: 3in; margin-bottom: .3in;">
-      <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+    <h5 style="margin-left: 2.1in;">How Would You Rate Our Services?</h5>
+    <div class='rating-stars text-center'>
+      <ul id='stars'>
+        <li class='star' title='Poor' data-value='1'>
+          <i class='fa fa-star fa-fw'></i>
+        </li>
+        <li class='star' title='Fair' data-value='2'>
+          <i class='fa fa-star fa-fw'></i>
+        </li>
+        <li class='star' title='Good' data-value='3'>
+          <i class='fa fa-star fa-fw'></i>
+        </li>
+        <li class='star' title='Excellent' data-value='4'>
+          <i class='fa fa-star fa-fw'></i>
+        </li>
+        <li class='star' title='WOW!!!' data-value='5'>
+          <i class='fa fa-star fa-fw'></i>
+        </li>
+      </ul>
     </div>
-    <div class="container5">
-      <h3>Leave Us a Comment</h3>
-      <form>
-        <textarea placeholder="Add Your Comment"></textarea>
-        <div class="btn">
-          <input type="submit" value="Comment">
-          <button>Cancel</button>
-        </div>
-      </form>
+
+    <div class='success-box'>
+      <div class='clearfix'></div>
+      <img alt='tick image' width='32'
+        src='data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MjYuNjY3IDQyNi42NjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQyNi42NjcgNDI2LjY2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM2QUMyNTk7IiBkPSJNMjEzLjMzMywwQzk1LjUxOCwwLDAsOTUuNTE0LDAsMjEzLjMzM3M5NS41MTgsMjEzLjMzMywyMTMuMzMzLDIxMy4zMzMgIGMxMTcuODI4LDAsMjEzLjMzMy05NS41MTQsMjEzLjMzMy0yMTMuMzMzUzMzMS4xNTcsMCwyMTMuMzMzLDB6IE0xNzQuMTk5LDMyMi45MThsLTkzLjkzNS05My45MzFsMzEuMzA5LTMxLjMwOWw2Mi42MjYsNjIuNjIyICBsMTQwLjg5NC0xNDAuODk4bDMxLjMwOSwzMS4zMDlMMTc0LjE5OSwzMjIuOTE4eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K' />
+      <div class='text-message'></div>
+      <div class='clearfix'></div>
     </div>
-  </section> <!-- CONTACT FORM=================-->
+
+  </section>
+  <!-- TESTIMONIALS 
+            =================-->
+
+
+  <!-- CONTACT FORM=================-->
   <section id="contact" class="contact pb-0">
     <div class="container">
       <div class="row mb-5">
