@@ -22,6 +22,9 @@ books an appointment and pays for the service.
 * [https://JORIM1981.github.io/Hair-Salon/]
 
  #### Screenshot
+![salon1](https://user-images.githubusercontent.com/62019551/80007608-2447bf80-84cf-11ea-84f0-64bff87c912e.png)
+
+![salon2](https://user-images.githubusercontent.com/62019551/80007698-4b9e8c80-84cf-11ea-90eb-4260bf1c09e1.png)
 
 
 #### Setup Instructions and Installation
