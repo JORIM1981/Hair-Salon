@@ -23,9 +23,9 @@ one depending on the service they require.Finally there is a dialog box where th
 
 #### Screenshot
 
-![salon1](https://user-images.githubusercontent.com/62019551/80007608-2447bf80-84cf-11ea-84f0-64bff87c912e.png)
+![salon1](https://github.com/JORIM1981/Hair-Salon/blob/master/img/Screenshot-home.png)
 
-![salon2](https://user-images.githubusercontent.com/62019551/80007698-4b9e8c80-84cf-11ea-90eb-4260bf1c09e1.png)
+![salon2](https://github.com/JORIM1981/Hair-Salon/blob/master/img/Screenshot-services.png)
 
 #### Setup Instructions and Installation
 
