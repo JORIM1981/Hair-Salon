@@ -19,7 +19,10 @@ one depending on the service.Finally thes a dialog box where the customer leaves
 books an appointment and pays for the service.
 
 #### Link to live site
-* 
+* [https://JORIM1981.github.io/Hair-Salon/]
+
+ #### Screenshot
+
 
 #### Setup Instructions and Installation
 
