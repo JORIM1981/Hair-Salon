@@ -34,6 +34,7 @@ This a web application that allows the user to compare different services offere
 - JAVASCRIPT
 - CSS
 - JQUERY
+- SCREENCASTIFY
 
 ### Behaviour Driven Development
 
