@@ -69,7 +69,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Contact Information
 
-- Incase of any queries,contributions or clarifications u can contact us through
+- In-case of any queries,contributions or clarifications  can contact us through
   *okongo.midumbi.opondo@gmail.com
   *anitakahenya1@gmail.com
   *nasirabdulkadir91@gmail.com
